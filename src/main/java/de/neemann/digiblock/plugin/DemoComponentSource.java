@@ -1,14 +1,14 @@
-package de.neemann.digital.plugin;
+package de.neemann.digiblock.plugin;
 
-import de.neemann.digital.draw.library.ComponentManager;
-import de.neemann.digital.draw.library.ComponentSource;
-import de.neemann.digital.draw.library.ElementLibrary;
-import de.neemann.digital.draw.library.InvalidNodeException;
-import de.neemann.digital.draw.shapes.GenericShape;
-import de.neemann.digital.gui.Main;
+import de.neemann.digiblock.draw.library.ComponentManager;
+import de.neemann.digiblock.draw.library.ComponentSource;
+import de.neemann.digiblock.draw.library.ElementLibrary;
+import de.neemann.digiblock.draw.library.InvalidNodeException;
+import de.neemann.digiblock.draw.shapes.GenericShape;
+import de.neemann.digiblock.gui.Main;
 
 /**
- * Adds some components to Digital
+ * Adds some components to Digiblock
  */
 public class DemoComponentSource implements ComponentSource {
 
@@ -37,8 +37,8 @@ public class DemoComponentSource implements ComponentSource {
     }
 
     /**
-     * Start Digital with this ComponentSource attached to make debugging easier.
-     * IMPORTANT: Remove the jar from Digitals settings!!!
+     * Start Digiblock with this ComponentSource attached to make debugging easier.
+     * IMPORTANT: Remove the jar from Digiblocks settings!!!
      *
      * @param args args
      */

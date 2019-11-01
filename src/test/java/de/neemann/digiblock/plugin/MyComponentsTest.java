@@ -1,13 +1,13 @@
-package de.neemann.digital.plugin;
+package de.neemann.digiblock.plugin;
 
-import de.neemann.digital.core.Model;
-import de.neemann.digital.core.NodeException;
-import de.neemann.digital.core.ObservableValue;
-import de.neemann.digital.core.element.ElementAttributes;
-import de.neemann.digital.draw.elements.PinException;
+import de.neemann.digiblock.core.Model;
+import de.neemann.digiblock.core.NodeException;
+import de.neemann.digiblock.core.ObservableValue;
+import de.neemann.digiblock.core.element.ElementAttributes;
+import de.neemann.digiblock.draw.elements.PinException;
 import junit.framework.TestCase;
 
-import static de.neemann.digital.core.ObservableValues.ovs;
+import static de.neemann.digiblock.core.ObservableValues.ovs;
 
 /**
  * Simple table driven tests to test the custom MyAnd and MyOr components

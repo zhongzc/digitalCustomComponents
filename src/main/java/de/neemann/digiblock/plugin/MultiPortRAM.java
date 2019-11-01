@@ -3,16 +3,16 @@
  * Use of this source code is governed by the GPL v3 license
  * that can be found in the LICENSE file.
  */
-package de.neemann.digital.plugin;
+package de.neemann.digiblock.plugin;
 
-import de.neemann.digital.core.*;
-import de.neemann.digital.core.element.*;
-import de.neemann.digital.core.memory.DataField;
-import de.neemann.digital.core.memory.RAMInterface;
+import de.neemann.digiblock.core.*;
+import de.neemann.digiblock.core.element.*;
+import de.neemann.digiblock.core.memory.DataField;
+import de.neemann.digiblock.core.memory.RAMInterface;
 
 import java.util.ArrayList;
 
-import static de.neemann.digital.core.element.PinInfo.input;
+import static de.neemann.digiblock.core.element.PinInfo.input;
 
 /**
  * RAM module with different ports to read and write the data

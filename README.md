@@ -1,7 +1,7 @@
-# Digital Custom Java Components #
+# Digiblock Custom Java Components #
 
 This is a example project which demonstrates the creation of java implemented custom
-components which can be used in the [Digital](https://github.com/hneemann/Digital/) simulator. 
+components which can be used in the [Digiblock](https://github.com/hneemann/Digiblock/) simulator. 
 
 ## How it works ##
 
@@ -17,7 +17,7 @@ simulator by selecting the created JAR file - `pluginExample-1.0-SNAPSHOT.jar` i
 the simulators settings ("Java library").
 
 The class `DemoComponentSource.java` contains a `Main` method. This method can be used to debug your 
-components. To use this method, it is necessary to remove the jar file from the digital settings.
+components. To use this method, it is necessary to remove the jar file from the digiblock settings.
 
 ## How do I get set up? ##
 
@@ -25,7 +25,7 @@ The easiest way to build the necessary Jar is to use [maven](https://maven.apach
 
 * JDK 1.8 is needed (either the Oracle JDK 1.8 or OpenJDK 1.8)  
 * Clone the repository.
-* Replace the `Digital.jar` which is included in this repo with the version you want to use.
+* Replace the `Digiblock.jar` which is included in this repo with the version you want to use.
 * Rename the DemoComponentSource class as appropriate.
 * Also update the new class name in the `pom.xml`
 * Implement your components

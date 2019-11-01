@@ -1,22 +1,22 @@
-package de.neemann.digital.plugin;
+package de.neemann.digiblock.plugin;
 
-import de.neemann.digital.core.ObservableValue;
-import de.neemann.digital.core.Observer;
-import de.neemann.digital.core.Value;
-import de.neemann.digital.core.element.ElementAttributes;
-import de.neemann.digital.core.element.PinDescriptions;
-import de.neemann.digital.draw.elements.IOState;
-import de.neemann.digital.draw.elements.Pin;
-import de.neemann.digital.draw.elements.Pins;
-import de.neemann.digital.draw.graphics.Graphic;
-import de.neemann.digital.draw.graphics.Orientation;
-import de.neemann.digital.draw.graphics.Style;
-import de.neemann.digital.draw.shapes.InteractorInterface;
-import de.neemann.digital.draw.shapes.Shape;
+import de.neemann.digiblock.core.ObservableValue;
+import de.neemann.digiblock.core.Observer;
+import de.neemann.digiblock.core.Value;
+import de.neemann.digiblock.core.element.ElementAttributes;
+import de.neemann.digiblock.core.element.PinDescriptions;
+import de.neemann.digiblock.draw.elements.IOState;
+import de.neemann.digiblock.draw.elements.Pin;
+import de.neemann.digiblock.draw.elements.Pins;
+import de.neemann.digiblock.draw.graphics.Graphic;
+import de.neemann.digiblock.draw.graphics.Orientation;
+import de.neemann.digiblock.draw.graphics.Style;
+import de.neemann.digiblock.draw.shapes.InteractorInterface;
+import de.neemann.digiblock.draw.shapes.Shape;
 
-import static de.neemann.digital.draw.graphics.Vector.vec;
-import static de.neemann.digital.draw.shapes.GenericShape.SIZE;
-import static de.neemann.digital.draw.shapes.GenericShape.SIZE2;
+import static de.neemann.digiblock.draw.graphics.Vector.vec;
+import static de.neemann.digiblock.draw.shapes.GenericShape.SIZE;
+import static de.neemann.digiblock.draw.shapes.GenericShape.SIZE2;
 
 /**
  * A shape for the new Or component

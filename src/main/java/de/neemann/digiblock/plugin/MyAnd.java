@@ -1,15 +1,15 @@
-package de.neemann.digital.plugin;
+package de.neemann.digiblock.plugin;
 
-import de.neemann.digital.core.Node;
-import de.neemann.digital.core.NodeException;
-import de.neemann.digital.core.ObservableValue;
-import de.neemann.digital.core.ObservableValues;
-import de.neemann.digital.core.element.Element;
-import de.neemann.digital.core.element.ElementAttributes;
-import de.neemann.digital.core.element.ElementTypeDescription;
-import de.neemann.digital.core.element.Keys;
+import de.neemann.digiblock.core.Node;
+import de.neemann.digiblock.core.NodeException;
+import de.neemann.digiblock.core.ObservableValue;
+import de.neemann.digiblock.core.ObservableValues;
+import de.neemann.digiblock.core.element.Element;
+import de.neemann.digiblock.core.element.ElementAttributes;
+import de.neemann.digiblock.core.element.ElementTypeDescription;
+import de.neemann.digiblock.core.element.Keys;
 
-import static de.neemann.digital.core.element.PinInfo.input;
+import static de.neemann.digiblock.core.element.PinInfo.input;
 
 /**
  * A simple And component

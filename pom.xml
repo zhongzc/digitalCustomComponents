@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.neemann.digital</groupId>
+    <groupId>de.neemann.digiblock</groupId>
     <artifactId>pluginExample</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>pluginExample</name>
@@ -41,7 +41,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
 							<!--       set your ComponentSource class name here! -->
-                            <mainClass>de.neemann.digital.plugin.DemoComponentSource</mainClass>
+                            <mainClass>de.neemann.digiblock.plugin.DemoComponentSource</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -51,11 +51,11 @@
 
     <dependencies>
         <dependency>
-            <groupId>de.neemann.digital</groupId>
-            <artifactId>Digital</artifactId>
+            <groupId>de.neemann.digiblock</groupId>
+            <artifactId>Digiblock</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>system</scope>
-            <systemPath>${basedir}/Digital.jar</systemPath>
+            <systemPath>${basedir}/Digiblock.jar</systemPath>
         </dependency>
 
         <dependency>
