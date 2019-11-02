@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.neemann.digiblock</groupId>
-    <artifactId>pluginExample</artifactId>
+    <artifactId>pll</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>pluginExample</name>
+    <name>pll</name>
 
     <properties>
         <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
@@ -41,7 +41,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
 							<!--       set your ComponentSource class name here! -->
-                            <mainClass>de.neemann.digiblock.plugin.DemoComponentSource</mainClass>
+                            <mainClass>de.neemann.digiblock.plugin.PLLComponentSource</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
