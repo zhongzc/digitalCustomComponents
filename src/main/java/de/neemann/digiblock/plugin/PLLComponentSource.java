@@ -10,7 +10,13 @@ import de.neemann.digiblock.gui.Main;
 public class PLLComponentSource implements ComponentSource {
     @Override
     public void registerComponents(ComponentManager manager) throws InvalidNodeException {
-        manager.addComponent("Lattice/MachXO2", PLL.DESCRIPTION);
+        manager.addComponent("Lattice/MachXO2", PLL.DESCRIPTION, (attributes, inputs, outputs) -> new GenericShape(
+                PLL.DESCRIPTION.getName(),
+                inputs,
+                outputs,
+                null,
+                true,
+                6));
     }
 
     public static void main(String[] args) {

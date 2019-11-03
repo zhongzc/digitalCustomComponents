@@ -27,9 +27,7 @@ public class PLL extends Node implements Element {
     }
 
     public void writeOutputs() {
-        this.outs.forEach((o) -> {
-            o.setValue(this.outValue);
-        });
+        this.outs.forEach((o) -> o.setValue(this.outValue));
     }
 
     public void setInputs(ObservableValues inputs) throws NodeException {
